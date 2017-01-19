@@ -4,9 +4,7 @@ import CardSection from './CardSection';
 
 const Card = (props) => {
   return <View style={styles.container}>
-    <CardSection>
       {props.children}
-    </CardSection>
   </View>
 };
 
