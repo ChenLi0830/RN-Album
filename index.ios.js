@@ -16,7 +16,8 @@ import Header from './src/components/header';
 export default class RN_Album extends Component {
   render() {
     return (
-        <Header/>
+        <Header title="Albums"/>
+        //get api http://rallycoding.herokuapp.com/api/music_albums
       // <View style={styles.container}>
       //
       //
