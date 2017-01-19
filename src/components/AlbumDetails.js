@@ -1,9 +1,11 @@
 import React from 'react';
-import {Text, View} from 'react-native';
+import {Text} from 'react-native';
+import Card from './Card';
+
 const AlbumDetails = (props) => {
-  return <View>
+  return <Card>
     <Text>{props.album.title}</Text>
-  </View>
+  </Card>
 };
 
 export default AlbumDetails;
