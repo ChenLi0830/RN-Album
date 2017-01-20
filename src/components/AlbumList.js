@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import AlbumDetails from './AlbumDetails';
 
 class AlbumList extends Component {
@@ -24,9 +24,9 @@ class AlbumList extends Component {
   
   render() {
     const albums = this.state.albums.map(album => <AlbumDetails key = {album.title} album={album}/>);
-    return <View>
+    return <ScrollView>
       {albums}
-    </View>
+    </ScrollView>
   }
 }
 ;
