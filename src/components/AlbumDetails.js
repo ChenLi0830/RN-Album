@@ -27,7 +27,7 @@ const AlbumDetails = ({album}) => {
     </CardSection>
   
     <CardSection>
-      <Button/>
+      <Button onPress={()=>console.warn("clicked")}/>
     </CardSection>
   </Card>
 };
